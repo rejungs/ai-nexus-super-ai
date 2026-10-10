@@ -564,7 +564,6 @@ button,a{scroll-margin-top:84px}
 
 </style>
 
-/* V36 MOBILE LAYOUT REPAIR */
 <style id="v36-mobile-layout-fix">
 @media (max-width: 700px) {
   html, body { max-width:100%; overflow-x:hidden; }
@@ -594,6 +593,22 @@ button,a{scroll-margin-top:84px}
   .hero { padding:28px 12px 24px!important; }
   .hero h1 { font-size:32px!important; }
 }
+
+/* V37 compact mobile controls */
+@media (max-width:700px){
+  .actions{display:flex!important;flex-wrap:wrap!important;gap:7px!important;align-items:center!important}
+  .actions .btn{flex:0 1 auto!important;width:auto!important;min-width:0!important;min-height:34px!important;padding:7px 11px!important;font-size:11px!important;line-height:1.15!important;border-radius:999px!important;white-space:nowrap!important;overflow-wrap:normal!important}
+  .actions #shareSite,.actions #motionToggle,.actions #voiceToggle,.actions #pauseVoice{flex:0 1 auto!important}
+  .language-wrap{padding:10px 12px!important;min-height:52px!important}
+  .v30-command-launch{right:10px!important;bottom:10px!important;padding:9px 11px!important;gap:6px!important;font-size:10px!important;max-width:calc(100vw - 20px)!important}
+  .v30-command-launch kbd{font-size:9px!important;padding:2px 5px!important}
+}
+@media (max-width:390px){
+  .actions .btn{font-size:10px!important;padding:7px 9px!important;min-height:32px!important}
+  .actions{gap:6px!important}
+  .v30-command-launch{font-size:9px!important;padding:8px 10px!important}
+}
+
 </style>
 </head>
 <body>

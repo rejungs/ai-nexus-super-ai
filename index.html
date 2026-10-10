@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#070b18">
 <meta name="description" content="AI NEXUS SUPER AI — mobile-friendly AI tools, free workflows, and creator prompts.">
 <meta name="color-scheme" content="dark">
-<title>AI NEXUS SUPER AI V35 — Mobile Speed Plus</title>
+<title>AI NEXUS SUPER AI V40 — Fixed Mobile Layout</title>
 <style>
 :root{--bg:#070b18;--panel:rgba(15,23,48,.76);--cyan:#54f4ff;--violet:#9a70ff;--pink:#ff58d0;--muted:#a8b4d8;--white:#f5f7ff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 10%,#1a2451 0,#0b1024 40%,var(--bg) 78%);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;min-height:100vh;overflow-x:hidden}
@@ -562,7 +562,8 @@ button,a{scroll-margin-top:84px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 @media(hover:none){.btn:hover,.portal-card:hover,.tool-card:hover,.workflow-card:hover{transform:none!important;box-shadow:none!important}}
 
-</style>
+
+
 
 <style id="v36-mobile-layout-fix">
 @media (max-width: 700px) {
@@ -609,8 +610,6 @@ button,a{scroll-margin-top:84px}
   .v30-command-launch{font-size:9px!important;padding:8px 10px!important}
 }
 
-</style>
-
 /* V38: refined mobile CTA and floating command control */
 @media(max-width:560px){
   .hero-buttons{display:flex!important;flex-direction:column!important;align-items:center!important;width:100%!important;gap:10px!important;margin:20px auto 0!important}
@@ -621,6 +620,10 @@ button,a{scroll-margin-top:84px}
 }
 
 
+
+</style>
+
+</style>
 <style id="v39-compact-mobile-final">
 /* V39: compact hero buttons on phones */
 @media (max-width: 680px) {
@@ -632,6 +635,16 @@ button,a{scroll-margin-top:84px}
 }
 @media (max-width:380px) {
   .hero-buttons .btn, .hero-buttons a, .hero-buttons button { width:100% !important; min-height:52px !important; padding:12px 14px !important; font-size:13px !important; }
+}
+</style>
+
+<style id="v40-corrected-mobile-layout">
+/* V40: corrected stylesheet placement and compact mobile controls */
+@media (max-width: 680px) {
+  .hero-buttons { display:flex !important; flex-direction:column !important; align-items:center !important; gap:12px !important; margin:20px auto 0 !important; width:100% !important; }
+  .hero-buttons .btn, .hero-buttons a, .hero-buttons button { display:flex !important; align-items:center !important; justify-content:center !important; width:min(100%, 340px) !important; height:58px !important; min-height:58px !important; max-height:58px !important; padding:0 18px !important; margin:0 auto !important; border-radius:18px !important; font-size:14px !important; line-height:1.2 !important; box-sizing:border-box !important; }
+  .v30-command-launch { right:8px !important; bottom:8px !important; padding:7px 9px !important; gap:5px !important; font-size:9px !important; max-width:calc(100vw - 16px) !important; }
+  .v30-command-launch kbd { font-size:8px !important; padding:2px 4px !important; }
 }
 </style>
 </head>

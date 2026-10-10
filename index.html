@@ -620,6 +620,20 @@ button,a{scroll-margin-top:84px}
   .v30-command-launch kbd{font-size:8px!important;padding:2px 4px!important}
 }
 
+
+<style id="v39-compact-mobile-final">
+/* V39: compact hero buttons on phones */
+@media (max-width: 680px) {
+  .hero-buttons { display:flex !important; flex-direction:column !important; align-items:center !important; gap:10px !important; margin:22px auto 0 !important; width:100% !important; }
+  .hero-buttons .btn, .hero-buttons a, .hero-buttons button { width:min(100%, 330px) !important; min-width:0 !important; min-height:56px !important; height:auto !important; padding:14px 18px !important; border-radius:18px !important; font-size:14px !important; line-height:1.25 !important; box-sizing:border-box !important; }
+  .hero-buttons .btn.primary { box-shadow:0 5px 18px #269cff35 !important; }
+  .v30-command-launch { right:10px !important; bottom:10px !important; padding:7px 9px !important; gap:5px !important; font-size:10px !important; border-radius:16px !important; box-shadow:0 4px 14px #5cecff20 !important; }
+  .v30-command-launch kbd { font-size:8px !important; padding:2px 4px !important; }
+}
+@media (max-width:380px) {
+  .hero-buttons .btn, .hero-buttons a, .hero-buttons button { width:100% !important; min-height:52px !important; padding:12px 14px !important; font-size:13px !important; }
+}
+</style>
 </head>
 <body>
 <div class="portal-transit" id="portalTransit" aria-hidden="true" style="--transit-glow:#55f4ff">

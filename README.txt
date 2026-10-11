@@ -1,3 +1,5 @@
-AI NEXUS SUPER AI — Version 49
+AI NEXUS SUPER AI V51
 
-Removed only the top-header “Credits & Usage” button beside Language. Credits & Usage options inside individual tool listings/portals are preserved. Replace your existing index.html with this index.html. Back up your current file first.
+Updated Credits & Usage details. Google Flow includes official daily credits and per-generation costs; other tools instruct users to verify current allowances on official provider pages. Values may change.
+
+To publish: extract this ZIP and replace your repository index.html with the included index.html. Back up the previous file first.

@@ -1,5 +1,8 @@
-AI NEXUS SUPER AI V74 — Button Layout Cleanup
+AI NEXUS SUPER AI V80 - Exit Portal Floating Shortcut
 
-Updated the showcase spacing, removed outdated video-mode wording, and spaced floating shortcut buttons to reduce overlap.
+Update included:
+- Exit portal remains visible while inside a portal.
+- Compact named rectangle style aligned with the floating shortcut design.
+- Positioned at the lower-right with responsive sizing.
 
-To publish: extract this ZIP and replace the repository root index.html with this file renamed to index.html, then commit the change in GitHub.
+To use: upload this index.html to the root of your GitHub Pages repository, replacing the existing index.html, then commit the change. This package has not been published to the live site automatically.
